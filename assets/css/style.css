@@ -1,0 +1,135 @@
+html {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    height: 100%;
+    background: #FFFEF4;
+    font-family: termina, sans serif; 
+  }
+  
+  .section-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .section-header .header-logo {
+    display: block;
+    width: 100%;
+    max-width: 250px;
+    margin-top: 0%;
+    border-radius: 0%;
+    background: #fd6c2d;
+    z-index: 1;
+    transform: translateY(-10px);
+    animation: bounce 5s cubic-bezier(.7,.9,.8,.9) 0s infinite alternate;
+  }
+  
+  .section-header .header-slogan { 
+    font-family: termina, sans serif;
+    font-weight: 400;
+    font-size: 30;
+    color: ##391F1F;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  
+  .section-header .header-slogantext { 
+    font-family: termina, sans serif;
+    font-weight: 100;
+    color: #A71818;
+    text-align: center;
+    font-size:14;
+    max-width: 700px;
+  }
+  .section-worldmap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0%;
+  }
+  
+  .map-container {
+    display: inline-block; 
+    vertical-align: middle; 
+    position: relative;
+    max-width: 800px;
+    width: 95%;
+  }
+  
+  .map-container .map-img {
+    width: 100%;
+    fill: black;
+  }
+  
+  .map-container .map-pointer {
+      position: absolute;   
+  }
+  
+  .map-container .map-pointer {
+    width: 5%;
+  }
+  
+  .map-container .map-pointer.sg {
+    top: 53%;
+    left: 71.5%;
+  }
+  
+  .map-container .map-pointer.jpn {
+    top: 40%;
+    left: 84%;
+  }
+  
+  .map-container .map-pointer.sf {
+    top: 45%;
+    left: 12%;
+  }
+
+  .map-container .map-pointer.bkk {
+    top: 50%;
+    left: 73%;
+  }
+
+  .map-container .map-pointer.ny {
+    top: 40%;
+    left: 25%;
+  }
+  
+  .map-container .map-pointer.eu {
+    top: 38%;
+    left: 45%;
+  }
+ 
+
+  .about-us{
+    text-decoration: none;
+    color: #fffff;
+}
+
+.map-container {
+  animation-duration: 5s;
+  transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+  animation-fill-mode: both;
+}
+  
+  
+.map-pointer:hover{
+  transform: rotate(0) scale(1.6) translateZ(0);
+  -webkit-filter: drop-shadow(0 20px 20px  rgba(0, 0, 0, 0.70));
+  filter: drop-shadow(0 20px 20px rgba(0, 0, 0, 0.70));
+  animation-delay: 0s;
+}
+
+  
+
+@keyframes bounce{
+  from{
+      transform: translateY(-200px);
+  }
+  to {
+      transform: translateY(30px);
+  }
+}

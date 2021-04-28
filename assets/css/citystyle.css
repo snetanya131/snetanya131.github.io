@@ -1,0 +1,134 @@
+html {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    
+    
+}
+body{
+    height: 100%;
+    background: #FFFEF4;
+    font-family: termina, sans serif; 
+}
+head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.headerCity {
+    margin-left: 50%;
+   margin-top: 3%;
+    
+}
+.newYorkHeader {
+    margin-left: 45.5%;
+    font-weight: normal;
+    padding-bottom: 4%;
+    font-size: 20;
+}
+
+.bayAreaHeader {
+    margin-left: 42%;
+    font-weight: normal;
+    padding-bottom: 4%;
+    font-size: 20;
+}
+
+.sgHeader {
+    margin-left: 45%;
+    font-weight: normal;
+    padding-bottom: 4%;
+    font-size: 20;
+}
+.jpnHeader {
+    margin-left: 47.5%;
+    font-weight: normal;
+    padding-bottom: 4%;
+    font-size: 20;
+}
+
+.euHeader {
+    margin-left: 46.5%;
+    font-weight: normal;
+    padding-bottom: 4%;
+    font-size: 20;
+}
+
+.back-home{
+    margin-left: 85%;
+    margin-top: 2% ;
+}
+
+
+.citytitle {
+    font-family: 'Sulphur Point', sans-serif;
+    font-size: 36;
+}
+
+#content {
+    display: block;
+    width: 100%;
+    max-width: 900px;
+}
+
+#content .Content1 {
+    max-width: 450px;
+    margin-left: 30%;
+ 
+}
+
+#content .content1img {
+position: absolute;
+width: 364px;
+height: 361px;
+left: 892px;
+top: 314px;
+
+}
+
+#content .content1img:hover {
+        transition-duration: 0.5;
+        opacity: 0.9;
+        transform: scale(1.1) rotate(2deg);
+    }
+
+#content .Content2 {
+    max-width: 450px;
+    margin-left: 30%;
+    padding-top: 7%;
+}
+
+#content .content2img {
+    position: absolute;
+    width: 364px;
+    height: 361px;
+    left: 892px;
+    top: 796px;
+    }
+
+ #content .content2img:hover {
+    transition-duration: 0.5;
+    opacity: 0.9;
+    transform: scale(1.1) rotate(2deg);
+    } 
+
+ #content .Content3 {
+    max-width: 450px;
+    margin-left: 0%;
+    padding-top: 34%;
+    }
+    
+#content .content3img {
+    position: absolute;
+    width: 364px;
+    height: 361px;
+    left: 892px;
+    top: 1301px;
+    }
+    
+#content .content3img:hover {
+    transition-duration: 0.5;
+    opacity: 0.9;
+    transform: scale(1.1) rotate(2deg);
+    }    
